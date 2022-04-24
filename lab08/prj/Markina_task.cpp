@@ -3,16 +3,16 @@
 using namespace std;
 
 string Copyright(){
-    return "© Ìàðê³íà ²ðèíà";
+    return "Â© MaÑ€ÐºÑ–Ð½Ð° Ð†Ñ€Ð¸Ð½Ð°";
 }
 bool logvir(float a, float b){
-    return (a+5) >= b;
+    return (a + 5) >= b;
 }
 void DecHex(int x, int y, int z){
     cout << endl;
-    cout << "x â äåñÿòêîâ³é: " << dec << x <<"  â ø³ñòíàäöÿòêîâ³é:"<< hex << x << endl;
-    cout << "y â äåñÿòêîâ³é: " << dec << y << " â ø³ñòíàäöÿòêîâ³é: " << hex << y << endl;
-    cout << "z â äåñÿòêîâ³é: " << dec << z << " â ø³ñòíàäöÿòêîâ³é: " << hex << z << endl;
+    cout << "x Ð² Ð´ÐµÑÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << dec << x << " Ð² ÑˆÑ–ÑÑ‚Ð½Ð°Ð´Ñ†ÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹:"<< hex << x << endl;
+    cout << "y Ð² Ð´ÐµÑÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << dec << y << " Ð² ÑˆÑ–ÑÑ‚Ð½Ð°Ð´Ñ†ÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << hex << y << endl;
+    cout << "z Ð² Ð´ÐµÑÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << dec << z << " Ð² ÑˆÑ–ÑÑ‚Ð½Ð°Ð´Ñ†ÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << hex << z << endl;
 }
 int main(){
     system("chcp 1251 & cls");
@@ -24,22 +24,22 @@ int main(){
     float b = 0;
 cout <<Copyright()<< endl;
 
-    cout << "Ââåä³òü çì³ííó a: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð¾ a: ";
     cin >> a;
-    cout << "Ââåä³òü çì³ííó b: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð¾ b: ";
     cin >> b;
-    cout << "Ðåçóëüòàò ëîã³÷íîãî âèðàçó a+5 >= b: "
+    cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð»Ð¾Ð³Ñ–Ñ‡Ð½Ð¾Ð³Ð¾ Ð²Ð¸Ñ€Ð°Ð·Ñƒ a + 5 >= b: "
          << logvir(a, b) << endl << endl;
 
-    cout << "Ââåä³òü çì³ííó x: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð¾ x: ";
     cin >> x;
-    cout << "Ââåä³òü çì³ííó y: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð¾ y: ";
     cin >> y;
-    cout << "Ââåä³òü çì³ííó z: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð¾ z: ";
     cin >> z;
     DecHex(x,y,z);
 
-    cout << endl << "Ðåçóëüòàò âèðàçó: " << s_calculation(x, y, z);
-    cin >> x;
+    cout << endl << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð²Ð¸Ñ€Ð°Ð·Ñƒ: " << s_calculation(x, y, z);
+
     return 0;
 }
