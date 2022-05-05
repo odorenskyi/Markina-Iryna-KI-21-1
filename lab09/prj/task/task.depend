@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1651429476 source:c:\users\»ра\desktop\курс 1\second semester\bmtp\lab9-markina\lab9\main.cpp
+	<iostream>
+	"ModulesMarkina.h"
+
+1651427832 c:\users\»ра\desktop\курс 1\second semester\bmtp\lab9-markina\lab9\modulesmarkina.h
+	<iostream>
+
